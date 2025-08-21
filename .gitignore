@@ -1,7 +1,38 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
 target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Logs
+*.log
+
+# IntelliJ IDEA
 .idea/
 *.iml
-*.log
-.env
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# Spring Boot
+spring-boot-devtools.properties
+
+# OS files
 .DS_Store
-db_data/
+Thumbs.db
+
+# Environment files
+.env
